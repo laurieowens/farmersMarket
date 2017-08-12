@@ -18,7 +18,7 @@ var mongoose=require("mongoose");
 
 
 mongoose.Promise = global.Promise;
-mongoose.connect("mongodb://localhost/farmersMarket");
+mongoose.connect("mongodb://localhost/farmers_market_db");
 var mongoDB=mongoose.connection;
 
 //var routes= require('./routes/index');
